@@ -5,7 +5,7 @@ This is a convenient chat software, you can chat with your friends anytime and a
 I use Node, Express and Vue with socket.io to create an interactive chat application, and it also uses HTML and CSS to create harmonious and simple colors.
 
 ## How to use
-You just need a simple login page, and then you can start chatting with your friends!
+You just need to complet a simple login page, and then you can start chatting with your friends!
 
 ## MIT Licence
 
