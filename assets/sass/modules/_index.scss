@@ -1,0 +1,44 @@
+.home {
+    width            : 100vw;
+    height           : 100vh;
+    background-image : url(/images/login.png);
+    background-size  : 100% 100%;
+    background-repeat: no-repeat;
+
+    .login-box {
+        height         : 100%;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+
+        .inner {
+            padding      : 30px;
+            border-radius: 6px;
+            box-shadow   : 0 0 5px #444;
+            background-image : url(/images/login-box.png);
+            background-size  : 100% 100%;
+            background-repeat: no-repeat;
+
+            .input {
+                margin: 20px 0;
+
+                input {
+                    width  : 100%;
+                    padding: 10px;
+                }
+            }
+
+            .btn {
+                text-align: center;
+
+                input {
+                    background-color: dodgerblue;
+                    color           : white;
+                    padding         : 10px 20px;
+                    border-radius   : 10px;
+                    cursor          : pointer;
+                }
+            }
+        }
+    }
+}
