@@ -1,0 +1,107 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: arial, helvetica, sans-serif;
+}
+body a {
+  display: block;
+  color: #13a0ff;
+  margin: 1rem 0;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/images/login.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.home .login-box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .login-box .inner {
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #444;
+  background-image: url(/images/login-box.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.home .login-box .inner .input {
+  margin: 20px 0;
+}
+.home .login-box .inner .input input {
+  width: 100%;
+  padding: 10px;
+}
+.home .login-box .inner .btn {
+  text-align: center;
+}
+.home .login-box .inner .btn input {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.chat {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/images/chat.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.chat .inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chat .info {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+.chat .messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+.chat .messages .new-message {
+  margin-top: 20px;
+  float: left;
+  clear: both;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: white;
+}
+.chat .messages .new-message p {
+  margin-top: 10px;
+}
+.chat .messages .new-message.my-message {
+  background-color: #9EEA6A;
+  align-items: flex-end;
+  float: right;
+}
+.chat .message-wrapper {
+  display: flex;
+}
+.chat .message-wrapper .text-message {
+  flex-grow: 1;
+  padding: 5px 10px;
+  outline: none;
+}
+.chat .message-wrapper input {
+  padding: 20px;
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 24px;
+}
+/*# sourceMappingURL=./main.css.map */

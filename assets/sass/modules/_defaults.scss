@@ -1,0 +1,15 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $default-family;
+    a{
+        display:block; 
+        color: rgb(19, 160, 255);
+        margin: 1rem 0;
+    } 
+}
